@@ -111,7 +111,7 @@ function updateToolTip(chosenXAxis, circlesGroup) {
         // .offset([80, -60])
         .offset([-1000, 3000])
         .html(function (d) {
-            return (`Lacks Healthcare: ${d.healthcare}<br>${label}: ${d[chosenXAxis]}`);
+            return (`${d.state}<br>Lacks Healthcare: ${d.healthcare}<br>${label}: ${d[chosenXAxis]}`);
             // return (`${label} ${d[chosenXAxis]}<br>Healthcare: ${d.healthcare}`);
         });
 
