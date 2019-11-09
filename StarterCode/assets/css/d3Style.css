@@ -31,7 +31,8 @@
 }
 
 .stateCircle {
-  fill: #89bdd3;
+  /* fill: #89bdd3; */
+  fill: grey;
   stroke: #e3e3e3;
 }
 
